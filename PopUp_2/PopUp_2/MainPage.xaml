@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopUp_2.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Проверить знания таблицы умножения" Clicked="OnCheckButtonClicked" />
+            <Button Text="Проверить знания алфавита" Clicked="OnCheckAlphabetClicked" />
+            <Button Text="Показать результаты проверки таблицы умножения" Clicked="OnShowMultiplicationTableResults" />
+            <Button Text="Удалить файл MultiplicationTable.txt" Clicked="OnDeleteButtonClicked" />
+            <Button Text="Показать результаты проверки алфавита " Clicked="OnShowAlphabetResults" />
+            <Button Text="Удалить файл AlphabetTest.txt" Clicked="OnDeleteAlphabetTestButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
